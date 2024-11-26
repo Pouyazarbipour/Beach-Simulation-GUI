@@ -94,11 +94,6 @@ The simulation will display:
 
 ---
 
-## Contribution
-Contributions are welcome! Feel free to submit issues or pull requests to improve the functionality or add features.
-
----
-
 ## License  
 This project is licensed under the MIT License. See the `LICENSE` file for details.  
 
