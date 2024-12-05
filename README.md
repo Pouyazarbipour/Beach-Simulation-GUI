@@ -1,4 +1,4 @@
-# Beach Simulation Model
+# Beach Simulation GUI Model
 
 ## Overview
 This MATLAB project provides a simulation tool to analyze and visualize beach profiles under native and filled conditions. The model calculates key beach metrics, including depth, volume, and maximum profile extent, based on user-defined input parameters. It is particularly useful for coastal engineering applications such as beach nourishment design and sediment transport studies.
@@ -16,7 +16,7 @@ This MATLAB project provides a simulation tool to analyze and visualize beach pr
 
 ## File Structure
 ### **Main Script**
-- `beachSimulation.m`: Runs the entire simulation, from calculating beach profiles to plotting results.
+- `beachSimulationGUI.m`: Runs the entire simulation, from calculating beach profiles to plotting results.
 
 ### **Supporting Functions**
 - `createBathymetry`: Creates the bathymetric structure for profiles.
@@ -36,7 +36,7 @@ The simulation uses the following customizable inputs:
 - **`Bin`**: Berm height (e.g., 1 m).
 - **`hin`**: Closure depth (e.g., 6 m).
 
-These parameters can be adjusted directly within the `beachSimulation.m` script.
+These parameters can be adjusted directly within the `beachSimulationGUI.m` script.
 
 ---
 
@@ -56,7 +56,7 @@ To run the simulation:
 1. Open MATLAB and ensure all files are in the working directory.
 2. Execute the following command:
    ```matlab
-   beachSimulation();
+   beachSimulationGUI();
    ```
 3. View the plotted profiles and review key metrics in the console.
 
