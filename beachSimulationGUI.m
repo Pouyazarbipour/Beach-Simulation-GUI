@@ -1,3 +1,5 @@
+%% POUYA ZARBIPOUR LAKPOSHTEH EMAIL: pouyazarbipour@gmail.com
+
 function beachSimulationGUI()
     % Create GUI figure
     fig = uifigure('Name', 'Beach Simulation', 'Position', [100, 100, 400, 600]);
