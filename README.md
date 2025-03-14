@@ -2,6 +2,8 @@
 
 ## Overview
 This GUI application provides a simulation tool to analyze and visualize beach profiles under native and filled conditions. The model calculates key beach metrics, including depth, volume, and maximum profile extent, based on user-defined input parameters. It is particularly useful for coastal engineering applications such as beach nourishment design and sediment transport studies.
+
+
 To download the **.EXE** file, visit this [link](https://drive.google.com/file/d/1-bjdzUDHC1tuSy_hKOC3erauCuRkLs0E/view?usp=sharing).
 
 ---
@@ -16,8 +18,8 @@ To download the **.EXE** file, visit this [link](https://drive.google.com/file/d
 ---
 
 ## File Structure
-### **Main Script**
-- `beachSimulationGUI.m`: Runs the entire simulation, from calculating beach profiles to plotting results.
+### **GUI App**
+- `GUI Application`: Runs the entire simulation, from calculating beach profiles to plotting results.
 
 ### **Supporting Functions**
 - `createBathymetry`: Creates the bathymetric structure for profiles.
@@ -52,17 +54,6 @@ These parameters can be adjusted directly within the `beachSimulationGUI.m` scri
 
 ---
 
-## Usage
-To run the simulation:
-1. Open MATLAB and ensure all files are in the working directory.
-2. Execute the following command:
-   ```matlab
-   beachSimulationGUI();
-   ```
-3. View the plotted profiles and review key metrics in the console.
-
----
-
 ## Example
 Running the default script generates the following metrics and visualizations:
 - **Native grain size (`din`)**: 0.3 mm  
@@ -78,12 +69,6 @@ The simulation will display:
   - `A_F`: Shape factor for filled beach.
   - `x_max`: Maximum horizontal extent of the profile.
   - Volume of the fill.
-
----
-
-## Dependencies
-- **MATLAB**: R2017b or later.
-- No external libraries required.
 
 ---
 
