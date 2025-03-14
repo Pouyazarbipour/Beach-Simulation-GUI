@@ -1,7 +1,8 @@
 # Beach Simulation GUI Model
 
 ## Overview
-This MATLAB project provides a simulation tool to analyze and visualize beach profiles under native and filled conditions. The model calculates key beach metrics, including depth, volume, and maximum profile extent, based on user-defined input parameters. It is particularly useful for coastal engineering applications such as beach nourishment design and sediment transport studies.
+This GUI application provides a simulation tool to analyze and visualize beach profiles under native and filled conditions. The model calculates key beach metrics, including depth, volume, and maximum profile extent, based on user-defined input parameters. It is particularly useful for coastal engineering applications such as beach nourishment design and sediment transport studies.
+To download the **.EXE** file, visit this [link](https://drive.google.com/file/d/1-bjdzUDHC1tuSy_hKOC3erauCuRkLs0E/view?usp=sharing).
 
 ---
 
